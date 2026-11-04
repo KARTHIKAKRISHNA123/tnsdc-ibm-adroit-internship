@@ -171,8 +171,6 @@ python vector-db.py     # builds the FAISS index from the .txt documents
 python hr_agent.py      # asks questions against them
 ```
 
-> **Note on the MCP client:** `Agent_Client.py` launches the server as `mcp_server.py`, while the file in this repo is named `mcpServer.py`. Either rename the file to `mcp_server.py` or update `SERVER_PARAMS` in `Agent_Client.py` before running it.
-
 ---
 
 ## Key Concepts Learned
